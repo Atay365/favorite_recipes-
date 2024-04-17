@@ -1,0 +1,46 @@
+/* Style sheet for the Favorite Recipes, lets make this look modern and clean */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+}
+li {
+    margin: 7px;
+    list-style-type: square;
+    margin-right: 20%;
+    font-size: 18px;
+}
+div.entrees {
+    background-color: #fdfcf3;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.recipe_home_link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Reciepe Pages Styling */
+.RecipePage-h1 {
+    text-align: center;
+    display: block;
+}
+
+.RecipePage-img {
+    margin: auto;
+    display: block;
+}
+.RecipePage-p {
+    font-size: 18px;
+    margin-right: 20%;
+    margin-left: 2%;
+}
+div.RecipePage-div {
+    background-color: #fdfcf3;
+}
