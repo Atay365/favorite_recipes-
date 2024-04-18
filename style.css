@@ -54,12 +54,13 @@ li {
     color: white;
     text-align: center;
     padding-top: 35px;
+    font-size: 42px;
 
 }
 .main.firstdiv {
     background-color: #232b2b;
     margin-bottom: 0;
-    margin-top: -25px;
+    margin-top: -28px;
     margin-left: -25px;
     margin-right: -25px;
     height: 125px;
