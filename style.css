@@ -10,11 +10,32 @@ li {
     margin-right: 20%;
     font-size: 18px;
 }
-div.entrees {
-    background-color: #fdfcf3;
+.main.entrees {
     padding-left: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
+    color: black;
+    width: auto;
+    margin: auto;
+}
+.main.snacks {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: black;
+    width: auto;
+    margin: auto;
+}
+.main.desserts {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: black;
+    width: auto;
+    margin: auto;
+}
+#wrapper {
+    width: auto;
+    display: flex;
+    flex-direction: row;
 }
 .recipe_home_link {
     font-family: Arial, Helvetica, sans-serif;
@@ -24,6 +45,25 @@ div.entrees {
 }
 * {
     font-family: Arial, Helvetica, sans-serif;
+}
+.main.body {
+    background-color: white;
+}
+/* Index Page Header */
+.main.header {
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+
+}
+.main.firstdiv {
+    background-color: #232b2b;
+    margin-bottom: 0;
+    margin-top: -25px;
+    margin-left: -25px;
+    margin-right: -25px;
+    height: 125px;
+
 }
 
 /* Reciepe Pages Styling */
@@ -43,4 +83,24 @@ div.entrees {
 }
 div.RecipePage-div {
     background-color: #fdfcf3;
+}
+
+/* CSS for the Collage of Recipes */
+.collageRow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 3px;
+    margin-left: 20%;
+}
+
+.collageColumn {
+    flex: 50%;
+    max-width: 25%;
+    padding: 0 3px;
+}
+
+.collageColumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
