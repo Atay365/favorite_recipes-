@@ -83,7 +83,10 @@ li {
     margin-left: 2%;
 }
 div.RecipePage-div {
-    background-color: #fdfcf3;
+    background-color: whitesmoke;
+}
+.RecipePage-body {
+    background-color: whitesmoke;
 }
 
 /* CSS for the Collage of Recipes */
