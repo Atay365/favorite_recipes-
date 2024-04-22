@@ -82,8 +82,9 @@ li {
     margin-right: 20%;
     margin-left: 2%;
 }
-div.RecipePage-div {
+.RecipePage-div {
     background-color: whitesmoke;
+    margin-left: 200px;
 }
 .RecipePage-body {
     background-color: whitesmoke;
